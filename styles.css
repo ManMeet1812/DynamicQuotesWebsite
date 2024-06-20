@@ -1,0 +1,99 @@
+body{
+    /* font-family: "Playwrite IS", cursive;
+    font-style: normal; */
+    font-family: "Tangerine", cursive;
+    font-size: 1.2rem;
+    background: #407088;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.inner{
+    padding: 20px;
+}
+
+.box{
+    text-align: center;
+}
+
+#tweetMe{
+    /* padding-left: 520px; */
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+    /* transform: rotate(-30deg);  */
+    color: #1DA1F2;
+    font-size: 2rem; 
+    cursor: pointer; 
+    transition: color 0.3s ease;
+}
+
+#tweetMe i {
+    color: #1DA1F2;
+    cursor: pointer;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+#tweetMe:hover {
+    transform: scale(1.1);
+}
+
+/* #text i{
+    padding-right: 10px;
+} */
+i.start-quote.fas.fa-quote-left {
+    padding-right: 800px;
+}
+
+.quotes{
+    font-size: 4rem;
+    margin: 10px;
+}
+
+.author{
+    font-size: 3rem;
+    font-style: italic;
+}
+
+
+.button p{
+    background: #fff;
+    color: #407088;
+    padding: 14px 120px;
+    border-radius: 1px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Paytone One", sans-serif;
+}
+
+.button p:hover{
+    background-color: #1DA1F2;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .quotes, .author {
+        font-size: 1.2rem; 
+    }
+}
